@@ -1,0 +1,215 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+/* Codigo do cabecalho */
+header{
+    display: flex;
+    background-color: #3347B0;
+    text-decoration: none;
+    justify-content: space-between;
+    width: 100vw;
+    height: 120px;
+}
+
+.logo-image{
+    display: flex;
+    align-items: center;
+    width: 80px;
+    margin-left: 90px;
+    gap: 12px;
+    
+}
+
+.logo-name{
+    display: flex;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+.back-home{
+    display: flex;
+    flex-direction: row;
+    background-color: #3347B0;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.exit{
+    display: flex;
+    align-items: center;
+    width: 60px;
+    margin-right: 90px;
+    padding: 16px;
+}
+
+.exit img{
+    display: flex;
+    color: #FFFFFF;
+    width: 35px;
+}
+
+.exit a {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+/* Codigo do main */
+main{
+    display: flex;
+    margin-left: 90px;
+    margin-right: 90px;
+    flex-grow: 1;
+    align-items: center;
+    
+}
+
+.container-main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.container-title-device{
+    display: flex;
+    gap: 55px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-title-device span{
+    max-width: 500px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 55px;
+}
+
+.container-title-device pre{
+    color: #3347B0;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-image{
+    display: flex;
+    align-items: center;
+}
+
+ .container-courses{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cursos{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    gap: 15px;
+    color: white;
+    background-color: #3347B0;
+    border-radius: 5px;
+}
+
+
+
+.cards i {
+    font-size: 76px;
+}
+
+.cards span {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 76px;
+    font-weight: 500;
+}
+
+.curso-icon{
+    height: 50px;
+}
+
+/* Card dos Alunos */
+
+
+
+/* Codigo do rodape */
+footer{
+    display: flex;
+    width: 100vw;
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3347B0;
+}
+
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    margin-left: 90px;
+}
+
+.icons-contact {
+    display: flex;
+    height: 30px;
+    width: 30px;
+}
+
+.info-contact{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;   
+}
+
+.copy{
+    color: #FFFFFF;
+    font-size: 18px;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.social-media ul {
+    display: flex;
+    /* flex-direction: row; */
+    color: #FFFFFF;
+    height: 100%;
+    margin-right: 90px;
+    align-items: center;
+    gap: 8px;
+    
+}
+
+.social-media li {
+    display: flex;
+    font-size: 35px;
+    border: solid 2px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.social-media ul li:hover{
+    transition: all 700ms ease-in-out;
+    background-color: #3347B0;
+    
+}

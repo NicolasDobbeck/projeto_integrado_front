@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+ul, li{
+    list-style: none;
+}
