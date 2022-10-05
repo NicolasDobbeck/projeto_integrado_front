@@ -1,0 +1,133 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+/* Codigo do cabecalho */
+header{
+    display: flex;
+    background-color: #3347B0;
+    text-decoration: none;
+    justify-content: space-between;
+    width: 100vw;
+    height: 120px;
+}
+
+.logo-image{
+    display: flex;
+    align-items: center;
+    width: 80px;
+    margin-left: 90px;
+    gap: 12px;
+    
+}
+
+.logo-name{
+    display: flex;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+.back-home{
+    display: flex;
+    flex-direction: row;
+    background-color: #3347B0;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.exit{
+    display: flex;
+    align-items: center;
+    width: 60px;
+    margin-right: 110px;
+    padding: 16px;
+}
+
+.exit img{
+    display: flex;
+    color: #FFFFFF;
+    width: 35px;
+}
+
+.exit a {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+/* Código do main */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 4;
+}
+
+/* Codigo do rodape */
+footer{
+    display: flex;
+    width: 100vw;
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3347B0;
+}
+
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    margin-left: 90px;
+}
+
+.icons-contact {
+    display: flex;
+    height: 30px;
+    width: 30px;
+}
+
+.info-contact{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;   
+}
+
+.copy{
+    color: #FFFFFF;
+    font-size: 18px;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.social-media ul {
+    display: flex;
+    /* flex-direction: row; */
+    color: #FFFFFF;
+    height: 100%;
+    margin-right: 90px;
+    align-items: center;
+    gap: 8px;
+    
+}
+
+.social-media li {
+    display: flex;
+    font-size: 35px;
+    border: solid 2px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.social-media ul li:hover{
+    transition: all 700ms ease-in-out;
+    background-color: #3347B0;
+    
+}
